@@ -11,9 +11,9 @@ namespace Chapter.Singleton
 
         void Start() {
             // TODO:
-            // - Load player save
-            // - If no save, redirect player to registration scene
-            // - Call backend and get daily challenge and rewards 
+            // - 플레이어 세이브 로드
+            // - 세이브가 없으면 플레이어를 등록 씬으로 리다이렉션
+            // - 백엔드를 호출하고 일일 챌린지와 보상을 얻음 
 
             _sessionStartTime = DateTime.Now;
             Debug.Log(
